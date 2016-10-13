@@ -1,0 +1,23 @@
+<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <asp:ContentPlaceHolder ID="head" runat="server" />
+        <link rel="Stylesheet" href="~/Content/styles.css" />
+    </head>
+    <body>
+        <div id="header">
+            <% if(!(ViewContext.Controller is WebUI.Controllers.CartController))
+                   Html.RenderAction("Summary", "Cart"); %>
+            <div class="title">SPORTS STORE</div>
+        </div>
+        <div id="categories">
+            <% Html.RenderAction("Menu", "Nav", 
+               new { highlightCategory = ViewData["CurrentCategory"] }); %>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+﻿DIV.NavMenu 
+{
+    float:left;
+    width: 13em;
+    background-color: #CCF;
+    padding: .5em;
+    margin: 1em 1em 1em 0;
+    font-family: Verdana;
+    font-size: 90%;
+}
+
+DIV.NavMenu UL
+{
+    list-style-type: square;
+}

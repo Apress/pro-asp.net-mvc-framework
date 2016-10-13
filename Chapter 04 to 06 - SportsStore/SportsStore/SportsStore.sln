@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{14D84BAA-F8BE-4A8C-84C5-77F334C3459F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{C2DF1153-82F2-4A7B-B36E-2B2946031B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{FFDDF71E-0B96-4AD5-A797-201D817AA77A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14D84BAA-F8BE-4A8C-84C5-77F334C3459F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D84BAA-F8BE-4A8C-84C5-77F334C3459F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D84BAA-F8BE-4A8C-84C5-77F334C3459F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D84BAA-F8BE-4A8C-84C5-77F334C3459F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DF1153-82F2-4A7B-B36E-2B2946031B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DF1153-82F2-4A7B-B36E-2B2946031B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DF1153-82F2-4A7B-B36E-2B2946031B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DF1153-82F2-4A7B-B36E-2B2946031B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDDF71E-0B96-4AD5-A797-201D817AA77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDDF71E-0B96-4AD5-A797-201D817AA77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDDF71E-0B96-4AD5-A797-201D817AA77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDDF71E-0B96-4AD5-A797-201D817AA77A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

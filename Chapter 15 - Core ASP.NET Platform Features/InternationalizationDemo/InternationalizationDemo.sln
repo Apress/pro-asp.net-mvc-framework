@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternationalizationDemo", "InternationalizationDemo\InternationalizationDemo.csproj", "{4F95D427-9BA9-499E-AF05-0DB3508A6667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyResources", "MyResources\MyResources.csproj", "{BA3ED62E-79D8-4081-9D85-F6518E23742E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F95D427-9BA9-499E-AF05-0DB3508A6667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F95D427-9BA9-499E-AF05-0DB3508A6667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F95D427-9BA9-499E-AF05-0DB3508A6667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F95D427-9BA9-499E-AF05-0DB3508A6667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3ED62E-79D8-4081-9D85-F6518E23742E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3ED62E-79D8-4081-9D85-F6518E23742E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3ED62E-79D8-4081-9D85-F6518E23742E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3ED62E-79D8-4081-9D85-F6518E23742E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

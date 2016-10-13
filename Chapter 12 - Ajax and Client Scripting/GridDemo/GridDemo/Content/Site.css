@@ -1,0 +1,8 @@
+﻿#summits TABLE { border-collapse: collapse; border: 1px solid black; margin-top: 8px; }
+TD { padding: 3px; }
+THEAD TD { font-weight:bold; background-color: silver; }
+.alternate { background-color: silver; }
+FORM { margin: 0; padding: 0; }
+A.selected { color: Black; text-decoration:none}
+
+#summits DIV.mountain { border: 1px solid black; background: #EAF; cursor: move; padding: 0.2em; width: 13em; margin: .3em; }
